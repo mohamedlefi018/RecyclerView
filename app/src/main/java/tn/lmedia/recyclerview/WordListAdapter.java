@@ -55,7 +55,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
 
     @Override
     public WordViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        
+
         View mItemView = mInflater.inflate(R.layout.wordlist_item, parent, false);
         return new WordViewHolder(mItemView, this);
 
